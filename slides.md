@@ -26,9 +26,27 @@ revealOptions:
 
 ---
 
+## Object oriented programming
+
+- Objects = Data + Behaviour
+- Classes are blueprints for creating objects
+
+---
+
+## Lists are objects
+
+```py
+x = list()
+x.append(1)
+x.append(2)
+x.append(3)
+```
+
+---
+
 ## Where next?
 
-- Vectors: numpy
-- Dataframes: pandas, polars
-- Plotting: matplotlib, seaborn
-- Orderly: outpack-py
+- Vectors: `numpy`
+- Dataframes: `pandas`, `polars`
+- Plotting: `matplotlib`, `seaborn`
+- Orderly: `outpack-py`
