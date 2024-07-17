@@ -74,6 +74,8 @@ Python installation.
 5. If all goes well you should now see an interactive Python session in the lower half of the Positron window.
    ![](./images/python-console.png)
 
+-----
+
 If the "Start interpreter" drop-down does not show any options you may need to
 make your session trusted first.  For this, hit Ctrl-Shift-P, which will open
 up the Command Palette, then search for "Manage Workspace Trust" and select
