@@ -23,3 +23,12 @@ revealOptions:
 - Building complex applications
 - Faster*
 - Because people around you do
+
+---
+
+## Where next?
+
+- Vectors: numpy
+- Dataframes: pandas, polars
+- Plotting: matplotlib, seaborn
+- Orderly: outpack-py
