@@ -70,8 +70,11 @@ Python installation.
 1. Open up Positron
 2. In the top-right corner, click on the "Start interpreter" button
 3. Click on the "power button" for the listed Global Python.
+   ![](./images/start-interpreter.png)
 4. You may be prompted to install a package called `ipykernel`. If this happens, answer "Yes".
+   ![](./images/install-ipykernel.png)
 5. If all goes well you should now see an interactive Python session in the lower half of the Positron window.
+   ![](./images/python-console.png)
 
 [positron-release]: https://github.com/posit-dev/positron/releases
 
