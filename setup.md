@@ -15,9 +15,7 @@ You do not need to follow the Visual Studio Code or Git setup.
 
 > These instructions have not been tested
 
-Depending on what version of macOS you have installed, you may have
-
-If you need to install Python, you can find an installer for it on the
+You can find an installer for macOS on the
 [Python website](https://www.python.org/downloads/macos/). Alternatively, if you
 already have Homebrew installed you should be able to install python with
 `brew install python`.
