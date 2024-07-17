@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="117.40514mm"
+   height="52.939404mm"
+   viewBox="0 0 117.40514 52.939404"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="venn.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="venn.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3204508"
+     inkscape:cx="136.31708"
+     inkscape:cy="133.66647"
+     inkscape:window-width="1916"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.500818,-108.58853)">
+    <g
+       id="g10">
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+         id="path3-5"
+         cx="75.151848"
+         cy="135.05823"
+         r="25.969702" />
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+         id="path3-7"
+         cx="70.97052"
+         cy="135.05823"
+         r="25.969702" />
+      <path
+         style="fill:#bae1ff;fill-opacity:1;stroke:none;stroke-width:1.10214;stroke-dasharray:none;stroke-opacity:1"
+         d="m 243.92949,603.45556 c -31.10674,-8.30708 -55.99455,-31.33354 -66.47506,-61.50343 -9.32002,-26.82923 -6.26272,-56.42081 8.35506,-80.86829 12.9048,-21.58262 34.4171,-37.6085 58.75606,-43.77111 3.03945,-0.76959 4.62257,-0.9771 3.44644,-0.45175 -0.32077,0.14328 -2.40078,1.05518 -4.62226,2.02645 -15.16364,6.62979 -29.31284,17.87698 -39.49472,31.39429 -11.97538,15.89835 -19.03605,35.51624 -19.84375,55.13537 -0.74915,18.19686 2.42091,33.55956 10.15643,49.21996 5.13269,10.39103 10.47124,17.95993 18.17088,25.76235 6.73452,6.82441 12.24583,11.20846 20.06632,15.96204 3.29603,2.00344 9.63244,5.20541 13.23424,6.68764 1.44346,0.59402 2.67914,1.1311 2.74597,1.19352 0.34568,0.32287 -1.64338,-0.0254 -4.49561,-0.78704 z"
+         id="path5"
+         transform="scale(0.26458333)" />
+      <path
+         style="fill:#baffc9;fill-opacity:1;stroke:none;stroke-width:1.10214;stroke-dasharray:none;stroke-opacity:1"
+         d="m 303.00426,604.53858 c 0.0668,-0.06 1.36813,-0.60264 2.89178,-1.20583 5.85203,-2.31673 14.00042,-6.72869 19.46967,-10.54189 9.10804,-6.35018 18.10643,-15.23281 24.47146,-24.15666 10.20772,-14.31135 16.51504,-31.32362 18.1631,-48.99003 0.38498,-4.12686 0.38498,-14.24439 0,-18.37126 -1.64806,-17.6664 -7.95538,-34.67867 -18.1631,-48.99002 -6.41245,-8.99033 -15.78947,-18.21128 -24.84086,-24.42743 -5.518,-3.78955 -14.13584,-8.40126 -19.52392,-10.44794 -1.36963,-0.52026 -2.43748,-0.99867 -2.37302,-1.06313 0.18162,-0.18162 6.07373,1.28705 9.72873,2.42499 19.6851,6.1287 37.64149,19.21509 49.56066,36.11919 15.31366,21.71825 20.98817,48.03415 15.95124,73.97487 -3.35718,17.28987 -11.56783,33.55298 -23.39127,46.33192 -11.57907,12.51481 -24.90255,21.20127 -40.52425,26.42043 -4.4783,1.49618 -11.96535,3.41235 -11.42022,2.92279 z"
+         id="path6"
+         transform="scale(0.26458333)" />
+      <path
+         style="fill:#ffffba;fill-opacity:1;stroke:none;stroke-width:1.10214;stroke-dasharray:none;stroke-opacity:1"
+         d="m 270.61156,605.64031 c -16.81842,-2.44519 -32.12495,-8.97327 -45.78235,-19.52573 -4.31129,-3.33114 -13.12862,-12.14847 -16.45976,-16.45976 -11.17045,-14.45723 -17.71907,-30.47094 -19.85504,-48.55261 -0.6497,-5.49993 -0.65093,-15.82726 -0.003,-21.28733 3.28539,-27.66612 17.48538,-51.66185 40.16632,-67.8747 12.02367,-8.59479 26.39474,-14.32362 41.6381,-16.59844 6.13671,-0.91581 11.9169,-0.41249 20.99938,1.82855 34.35427,8.47669 61.62915,35.70555 70.12439,70.00607 2.03434,8.21393 2.77743,14.44294 2.77743,23.28218 0,6.5655 -0.27032,10.12574 -1.19027,15.67599 -6.86294,41.40598 -40.00683,73.71611 -81.56415,79.51236 -3.90376,0.54448 -7.07444,0.54255 -10.85151,-0.007 z"
+         id="path7"
+         transform="scale(0.26458333)" />
+    </g>
+    <g
+       id="g7-3"
+       transform="translate(0,11.735053)">
+      <g
+         id="g9">
+        <g
+           id="g7"
+           transform="translate(0,-6.5611634)">
+          <text
+             xml:space="preserve"
+             style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+             x="125.14582"
+             y="127.42927"
+             id="text7-6"><tspan
+               sodipodi:role="line"
+               id="tspan7-0"
+               style="fill:#000000;stroke-width:1"
+               x="125.14582"
+               y="127.42927">Things R is good at</tspan></text>
+          <rect
+             style="fill:#bae1ff;fill-opacity:1;stroke:#000000;stroke-width:0.174119;stroke-dasharray:none;stroke-opacity:1"
+             id="rect7"
+             width="11.665175"
+             height="3.6661463"
+             x="110.25402"
+             y="124.77068" />
+        </g>
+        <g
+           id="g8">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+             x="125.14582"
+             y="127.42927"
+             id="text7-6-6"><tspan
+               sodipodi:role="line"
+               id="tspan7"
+               x="125.14582"
+               y="127.42927">Things Python is good at</tspan></text>
+          <rect
+             style="fill:#baffc9;fill-opacity:1;stroke:#000000;stroke-width:0.174119;stroke-dasharray:none;stroke-opacity:1"
+             id="rect7-2"
+             width="11.665175"
+             height="3.6661463"
+             x="110.25402"
+             y="124.77068" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
