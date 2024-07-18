@@ -37,11 +37,11 @@ revealOptions:
 
 ## R vs Python: Notable Differences
 
-Feature                      R              Python
+Feature               R              Python
 --------------------- -------------- ---------------
 whitespace            ignored        meaningful
-data frames & stats   out-of-box     package
-namespaces & packages messy          out-of-box
+data frames & stats   out-of-box     need package
+packages              fussy          easy
 operate on language   yes            no
 modifying variables   copy-on-modify modify-in-place
 variable assignment   `<-` (madness) `=` (sane)
