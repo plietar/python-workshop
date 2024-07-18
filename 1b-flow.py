@@ -68,16 +68,16 @@ print([i if (i % 2 == 0) else None
 # enumerate + zip
 
 print([ij for ij in enumerate('abc')])
-# [(1,'a'),(2,'b'),(3,'c')]
+# [(0,'a'),(1,'b'),(1,'c')]
 
-print([ij for ij in zip([1,2,3],'abc')])
-# [(1,'a'),(2,'b'),(3,'c')]
+print([ij for ij in zip([3,4,5],'abc')])
+# [(3,'a'),(4,'b'),(5,'c')]
 
-print([j for i,j in zip([1,2,3],'abc')])
+print([j for i,j in zip([3,4,5],'abc')])
 # ['a','b','c']
 
-print([ij for ij in zip([1,2,3],'a')])
-# [(1,'a')] stops at shortest (*)
+print([ij for ij in zip([3,4,5],'a')])
+# [(3,'a')] stops at shortest (*)
 
 # ----------------------------------------------------------
 # functions
@@ -85,6 +85,11 @@ print([ij for ij in zip([1,2,3],'a')])
 def f0():
   return 'hello!'
 print(f0()) # hello!
+
+def f1():
+  return 3,4,5
+a,b,c = f1()
+print(b) # 4
 
 def f_abc(a,b,c=3):
   return a+b+c
@@ -103,3 +108,32 @@ print(f_kwds(a=1,b=2,c=3)) # {'a':1,'b':2,'c':3}
 
 f = lambda x: x+1
 print(f(1)) # 2
+
+# ----------------------------------------------------------
+# packages
+
+import random # import everything in random
+print(random.uniform(0,1))
+
+import random as rnd # import everything using an alias
+print(rnd.uniform(0,1))
+
+from random import uniform # import just uniform
+print(uniform(0,1))
+
+from random import uniform as uni # import just uniform using an alias
+print(uni(0,1))
+
+from random import * # import everything without prefix (like R)
+print(betavariate(1,1))
+
+# ----------------------------------------------------------
+# local package: needs 2 things
+# 1. a file __init__.py: runs on load & can be empty
+# 2. other files with functions / variables
+
+from pkg import greetings # import everything in greetings file
+greetings.hello('world')  # hello world!
+
+greetings.punct = '.'     # modify the package variable
+greetings.hello('world')  # hello world.

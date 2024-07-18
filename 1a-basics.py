@@ -41,7 +41,7 @@ print(s1[0]) # a
 print(s1+s2) # abc
 
 # ----------------------------------------------------------
-# tuples <- c()
+# tuples: immutable sequence of anything
 t = (3,4)
 print(t)    # (3,4)
 print(t[0]) # 3
@@ -50,7 +50,7 @@ t0,t1 = t   # expandable (*)
 print(t0)   # 3
 
 # ----------------------------------------------------------
-# list <- c()
+# list: mutable sequence of anything
 l = [3,4]
 print(l)      # [3,4]
 print(l[0])   # 3
@@ -90,7 +90,7 @@ print(l*2)   # [3,4,5,6, 3,4,5,6]
 # print(l*l) # (!) can't multiply sequence by non-int
 
 # ----------------------------------------------------------
-# dicts <- list()
+# dicts: key-value pairs
 d1 = {'a':1,'b':2} # construct
 d2 = dict(a=1,b=2) # alt construct
 print(d1)          # {'a':1,'b':2}
@@ -102,7 +102,8 @@ print(d1['a'])         # 1
 # print(d1[('a','b')]) # (!) key error (*)
 d1['a'] = 0            # OK to overwrite
 d1['c'] = 4            # OK to add new
-d1[(0,1)] = 99         # OK keys can be anything
+d1[(0,1)] = 99         # OK keys can be anything immutable
+# d1[[0,1]] = 99       # (!) lists are mutable
 print(d1)              # {'a':0,'b':2,'c':4,(0,1):99}
 d1.update(d2)          # overwrite keys 'a','b'
 d1.update(c=3)         # overwrite key 'c'
@@ -115,9 +116,9 @@ print(d1.values()) # [1,2,3,99]
 print(d1.items())  # [('a',1),('b',2),('c',3),((0,1),99)]
 
 # ----------------------------------------------------------
-# variable modification
-print(2^2)         # 0 (*)
-print(2**2)        # 4 (*)
+# misc variable modification
+print(2^2)         # 0 (*); ^ = XOR
+print(2**2)        # 4 (*); ** = exponentiate
 a += 1; print(a)   # 2
 a *= 3; print(a)   # 6
 a /= 2; print(a)   # 3.0
