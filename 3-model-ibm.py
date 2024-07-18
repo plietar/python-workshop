@@ -6,7 +6,6 @@ P_INFECTION = 0.1
 P_RECOVERY_YOUNG = 0.02
 P_RECOVERY_OLD = 0.01
 
-
 class Person:
     def __init__(self, state, age):
         self.state = state
