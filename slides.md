@@ -35,6 +35,19 @@ revealOptions:
 
 ---
 
+## R vs Python: Notable Differences
+
+Feature                      R              Python
+--------------------- -------------- ---------------
+whitespace            ignored        meaningful
+data frames & stats   out-of-box     package
+namespaces & packages messy          out-of-box
+operate on language   yes            no
+modifying variables   copy-on-modify modify-in-place
+variable assignment   `<-` (madness) `=` (sane)
+
+---
+
 ## Object oriented programming
 
 - Objects = Data + Behaviour
@@ -48,19 +61,6 @@ class Person():
   def birthday(self):
     self.age += 1
 ```
-
----
-
-## R vs Python: Notable Differences
-
-Feature                      R              Python
----------------------------- -------------- ---------------
-\pause whitespace            ignored        meaningful
-\pause data frames & stats   out-of-box     needs package
-\pause namespaces & packages messy          out-of-box
-\pause operate on language   yes            no
-\pause modifying variables   copy-on-modify modify-in-place
-\pause variable assignment   `<-` (madness) `=` (sane)
 
 ---
 
