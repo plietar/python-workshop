@@ -9,6 +9,15 @@ revealOptions:
 
 ---
 
+## Outline
+
+0. slides
+1. basic syntax
+2. compartmental model
+3. individual-based model
+
+---
+
 ## When would you want to use Python
 
 ![](images/venn.svg)
