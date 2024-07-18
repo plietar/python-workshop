@@ -1,4 +1,4 @@
-import seaborn as sb
+import matplotlib.pyplot as plt
 
 def params(**kwds):
   P = {}
@@ -15,19 +15,24 @@ def solve(P):
   I = P['inf_init']
   R = 0
   N = S+I+R
-  X = {k:[] for k in 'SIR'}
-  for t in range(P['t_max']):
+  X = {k:[] for k in 'tSIR'}
+  tvec = range(P['t_max'])
+  for t in tvec:
     S += -P['eff_rate']*S*I/N
     I += +P['eff_rate']*S*I/N -1/P['inf_dur']*I
     R +=                      +1/P['inf_dur']*I
+    X['t'].append(t)
     X['S'].append(S)
     X['I'].append(I)
     X['R'].append(R)
-  return(X)
+  return X
 
 def plot(X):
-  h = sb.relplot(X,kind='line')
-  h.savefig('pyplots.pdf')
+  for k in 'SIR':
+    plt.plot(X['t'],X[k],label=k)
+  plt.xlabel('time (days)')
+  plt.ylabel('individuals (count)')
+  plt.show()
 
 P = params()
 X = solve(P)
