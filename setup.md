@@ -66,13 +66,25 @@ Before we can use Positron, we must make sure it is able to interact with your
 Python installation.
 
 1. Open up Positron
-2. In the top-right corner, click on the "Start interpreter" button
+2. In the top-right corner, click on the "Start interpreter" drop-down.
 3. Click on the "power button" for the listed Global Python.
    ![](./images/start-interpreter.png)
 4. You may be prompted to install a package called `ipykernel`. If this happens, click "Install".
    ![](./images/install-ipykernel.png)
 5. If all goes well you should now see an interactive Python session in the lower half of the Positron window.
    ![](./images/python-console.png)
+
+-----
+
+If the "Start interpreter" drop-down does not show any options you may need to
+make your session trusted first.  For this, hit Ctrl-Shift-P, which will open
+up the Command Palette, then search for "Manage Workspace Trust" and select
+that option. In the new window click the "Trust" button. You may need to
+restart Positron after that.
+
+![](./images/ctrl-shift-p-manage-trust.png)
+![](./images/trust.png)
+
 
 [positron-release]: https://github.com/posit-dev/positron/releases
 
