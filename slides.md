@@ -30,23 +30,58 @@ revealOptions:
 
 - Objects = Data + Behaviour
 - Classes are blueprints for creating objects
-
----
-
-## Lists are objects
-
+\pause
 ```py
-x = list()
-x.append(1)
-x.append(2)
-x.append(3)
+class Person():
+  def __init__(self,name,age):
+    self.name = name
+    self.age = age
+  def birthday(self):
+    self.age += 1
 ```
 
 ---
 
-## Where next?
+## R vs Python: Notable Differences
 
-- Vectors: `numpy`
-- Dataframes: `pandas`, `polars`
-- Plotting: `matplotlib`, `seaborn`
-- Orderly: `outpack-py`
+Feature                      R              Python
+---------------------------- -------------- ---------------
+\pause whitespace            ignored        meaningful
+\pause data frames & stats   out-of-box     needs package
+\pause namespaces & packages messy          out-of-box
+\pause operate on language   yes            no
+\pause modifying variables   copy-on-modify modify-in-place
+\pause variable assignment   `<-` (madness) `=` (sane)
+
+---
+
+## General Python Resources
+
+- Python Language Reference:
+  [`docs`](https://docs.python.org/3/library)
+- Python Package Index:
+  [`pypi`](https://pypi.org)
+
+## Task View: Packages
+
+- Vectors & Arrays:
+  [`numpy`](https://numpy.org/)
+- Dataframes:
+  [`pandas`](https://pandas.pydata.org/),
+  [`polars`](https://pola.rs/)
+- Plotting:
+  [`matplotlib`](https://matplotlib.org/),
+  [`seaborn`](https://seaborn.pydata.org/)
+- Statistics & Algorithms:
+  [`scipy`](https://scipy.org)
+- Orderly:
+  [`outpack-py`](https://github.com/mrc-ide/outpack-py)
+
+## Example Model Code
+
+- Optima HIV:
+  [`github`](https://github.com/optimamodel/optima)
+- HIV in Eswatini:
+  [`github`](https://github.com/mishra-lab/hiv-model-eswatini)
+- Toy HIV-like model:
+  [`github`](https://github.com/mishra-lab/epa-model-toy)
